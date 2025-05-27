@@ -1,0 +1,44 @@
+<footer class="footer-section">
+  <div class="footer-top">
+    <h3 class="footer-title">Nossos contatos</h3>
+    <div class="footer-contact">
+      <p>
+        <i class="fa-solid fa-phone"></i>
+        <a href="tel:+551123023188">(11) 2302-3188</a>
+      </p>
+
+      <p>
+        <i class="fa-brands fa-whatsapp"></i>
+        <a href="https://wa.me/5511999999999" target="_blank" rel="noopener"
+          >(11) 9 xxxx-xxxx</a
+        >
+      </p>
+
+      <p>
+        <i class="fa-solid fa-envelope"></i>
+        <a href="mailto:comercial@afloracultural.com.br"
+          >comercial&#64;afloracultural.com.br</a
+        >
+      </p>
+    </div>
+  </div>
+
+  <button
+  class="btn-voltar-topo"
+  title="Voltar ao topo"
+  (click)="scrollToTop()"
+  *ngIf="mostrarBotaoTopo"
+>
+  ↑
+</button>
+
+  <div class="footer-bottom">
+    <img src="assets/img/poiesis.png" alt="Poiesis" class="footer-logo" />
+    <img
+      src="assets/img/aflora-logo.png"
+      alt="Aflora Cultural"
+      class="footer-logo"
+    />
+  </div>
+
+</footer>

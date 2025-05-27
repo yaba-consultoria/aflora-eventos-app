@@ -1,0 +1,100 @@
+h1 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 1.8rem;
+}
+h2{
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 1.3rem !important;
+}
+p{
+  font-size: 2rem;
+}
+.header-container {
+  background-image: url('../../../assets/img/background-header.png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.header-content {
+  max-width: 800px;
+  color: #fff;
+}
+
+.logo {
+  max-width: 300px;
+  height: auto;
+}
+
+@media (max-width: 1440px) {
+  .logo {
+    max-width: 280px;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  .logo {
+    max-width: 220px;
+  }
+
+  .btn {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 0.95rem;
+  }
+
+  p {
+    font-size: 0.85rem;
+  }
+
+  .logo {
+    max-width: 180px;
+  }
+}
+
+.btn-proposta{
+  padding-left: 50px;
+  padding-right: 50px;
+}

@@ -1,0 +1,14 @@
+<section class="carousel-section">
+  <div class="carousel-wrapper">
+    <div class="carousel-track">
+      <div
+        class="carousel-slide"
+        *ngFor="let image of images; let i = index"
+        [ngClass]="getClass(i)"
+        (click)="onSlideClick(i)"
+      >
+        <img [src]="image" alt="Imagem do carrossel" />
+      </div>
+    </div>
+  </div>
+</section>

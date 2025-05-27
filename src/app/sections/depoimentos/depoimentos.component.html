@@ -1,0 +1,28 @@
+<section class="depoimentos-section">
+  <div class="container text-center">
+    <h2 class="depo-title">Depoimentos</h2>
+
+    <div class="carousel-wrapper">
+      <button class="arrow left" (click)="scrollLeft()">&#10094;</button>
+
+      <div class="carousel-track" #carousel>
+        <div class="card" *ngFor="let depo of depoimentos">
+          <h3>{{ depo.nome }}</h3>
+          <p>{{ depo.texto }}</p>
+          <div class="stars">
+            <span *ngFor="let star of [1, 2, 3, 4, 5]">⭐</span>
+          </div>
+        </div>
+      </div>
+
+      <button class="arrow right" (click)="scrollRight()">&#10095;</button>
+    </div>
+
+    <a
+      href="#formulario-proposta"
+      class="btn btn-outline-dark gradient-btn text-uppercase"
+    >
+      Solicite uma Proposta
+    </a>
+  </div>
+</section>

@@ -1,0 +1,25 @@
+<section class="form-section" id="formulario-proposta">
+  <div class="form-container">
+    <h2 class="form-title">Solicite um orçamento</h2>
+
+    <form>
+      <input type="text" placeholder="NOME" required />
+      <input type="email" placeholder="EMAIL CORPORATIVO" required />
+      <input type="tel" placeholder="TELEFONE" mask="(00) 00000-0000" required />
+
+      <select required>
+        <option value="" disabled selected>TIPO DE EVENTO</option>
+        <option>Corporativo</option>
+        <option>Social</option>
+        <option>Cultural</option>
+      </select>
+
+      <input type="text" placeholder="MUSEU DE INTERESSE" />
+      <input type="text" placeholder="DATA DESEJADA" [min]="minDate" onfocus="this.type='date'" onblur="this.type='text'" />
+
+      <textarea rows="6" placeholder="DETALHAMENTO DO EVENTO"></textarea>
+
+      <button type="submit" class="gradient-btn text-uppercase">Enviar solicitação</button>
+    </form>
+  </div>
+</section>

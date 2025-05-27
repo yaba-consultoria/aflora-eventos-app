@@ -1,0 +1,81 @@
+.titulo {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #d13f74;
+  line-height: 3rem;
+}
+
+.marcado {
+  background: linear-gradient(90deg, #7d2b6e 0%, #d13f74 100%);
+  color: white;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.subtitulo {
+  color: #444;
+  font-size: 1rem;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.box {
+  background-color: #fff;
+  border: 1px solid #eee;
+}
+
+
+.btn-gradiente {
+  background: linear-gradient(90deg, #7d2b6e 0%, #d13f74 100%);
+  color: white;
+  font-weight: 700;
+  font-size: 0.95em;
+  border: none;
+  padding: 0.8rem 4rem;
+  border-radius: 999px;
+  text-transform: uppercase;
+  transition: transform 0.2s ease;
+  text-decoration: none;
+}
+
+.btn-gradiente:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.box {
+  width: 100%;
+  max-width: 250px;
+  background-color: #fff;
+  border: 1px solid #eee;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.icone-texto {
+  color: #d13f74;
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+.box img {
+  max-width: 100px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+@media (max-width: 480px) {
+  .box img {
+    max-width: 80px;
+  }
+
+  .icone-texto {
+    font-size: 1rem;
+  }
+  .btn-gradiente{
+    font-size: 1em;
+  }
+}
