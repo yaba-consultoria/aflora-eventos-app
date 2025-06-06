@@ -59,6 +59,13 @@
   font-size: 1.2rem;
   line-height: 1.4;
 }
+.icone-subtexto {
+  color: #d13f74;
+  font-weight: 600;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  
+}
 
 .box img {
   max-width: 100px;

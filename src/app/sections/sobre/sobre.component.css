@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'Brandey Regular';
+  src: url('../../../assets/fonts/Brandey-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+h1 {
+  font-family: 'Brandey Regular', sans-serif;
+  font-size: 3rem;
+  color: #7d2b6e;
+  padding-bottom: 30px;
+}
+
+.sobre-text {
+  font-family: "Inter", sans-serif;
+  font-size: 1.2rem;
+  text-align: justify;
+  line-height: 1.7;
+}
+
+.logo-img {
+  max-width: 280px;
+  width: 100%;
+  height: auto;
+}
+
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.4rem;
+  }
+
+  .sobre-text {
+    font-size: 1.05rem;
+    padding: 0 0.5rem;
+  }
+
+  .logo-img {
+    max-width: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .sobre-text {
+    font-size: 1rem;
+  }
+
+  .logo-img {
+    max-width: 160px;
+  }
+}

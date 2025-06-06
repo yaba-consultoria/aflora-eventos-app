@@ -8,6 +8,7 @@ import { VideoComponent } from './sections/video/video.component';
 import { DepoimentosComponent } from './sections/depoimentos/depoimentos.component';
 import { FormComponent } from './sections/form/form.component';
 import { FooterComponent } from './sections/footer/footer.component';
+import { SobreComponent } from './sections/sobre/sobre.component';
 
 @Component({
   selector: 'app-root',
@@ -20,7 +21,8 @@ import { FooterComponent } from './sections/footer/footer.component';
     VideoComponent,
     DepoimentosComponent,
     FormComponent,
-    FooterComponent
+    FooterComponent,
+    SobreComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',

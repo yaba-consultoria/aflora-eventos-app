@@ -15,15 +15,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  max-width: 100%;
 }
 
 .carousel-track {
   display: flex;
-  gap: 1.5rem;
-  overflow-x: auto;
+  gap: 1.1rem;
+  overflow-x: hidden;
   scroll-behavior: smooth;
-  padding: 1rem 0;
-  max-width: 100%;
+  width: 100%;
+  max-width: 1200px;
 }
 
 .carousel-track::-webkit-scrollbar {
@@ -35,8 +36,7 @@
   border: 3px solid #d13f74;
   border-radius: 16px;
   padding: 1.5rem;
-  width: 300px;
-  flex-shrink: 0;
+  flex: 0 0 calc(33.333% - 1rem);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
@@ -66,18 +66,22 @@
   font-size: 2rem;
   color: #7d2b6e;
   cursor: pointer;
-  padding: 0 0.5rem;
   z-index: 10;
+  transition: transform 0.2s;
 }
 
 .arrow.left {
-  position: absolute;
-  left: 0;
+   position: absolute;
+  left: -50px;
+}
+
+.arrow:hover {
+  transform: scale(1.2);
 }
 
 .arrow.right {
   position: absolute;
-  right: 0;
+  right: -50px;
 }
 
 .gradient-btn {
@@ -128,5 +132,19 @@
   .gradient-btn {
     width: 90%;
     font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .card {
+    flex: 0 0 90%;
+  }
+
+  .arrow.left {
+    left: -30px;
+  }
+
+  .arrow.right {
+    right: -30px;
   }
 }

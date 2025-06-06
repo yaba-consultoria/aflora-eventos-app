@@ -1,25 +1,62 @@
 <section class="form-section" id="formulario-proposta">
-  <div class="form-container">
-    <h2 class="form-title">Solicite um orçamento</h2>
+  <div class="container-form row align-items-center">
+    <!-- LADO ESQUERDO -->
+    <div class="col-lg-6 left-content">
+      <h2 class="form-novo-title">
+        Solicite um <br />
+        <span class="destaque">Orçamento</span>
+      </h2>
+      <p class="form-novo-sub">
+        Entre em contato para dar início <br />
+        à organização do seu evento com sofisticação <br />
+        e a excelência do <strong>Aflora Cultural</strong>.
+      </p>
+    </div>
 
-    <form>
-      <input type="text" placeholder="NOME" required />
-      <input type="email" placeholder="EMAIL CORPORATIVO" required />
-      <input type="tel" placeholder="TELEFONE" mask="(00) 00000-0000" required />
+    <!-- LADO DIREITO FORMULÁRIO -->
+    <div class="col-lg-6">
+      <div class="form-card">
+        <h3 class="form-card-title">Preencha seus dados</h3>
+        <form>
+          <input type="text" placeholder="Nome" required />
+          <input type="email" placeholder="Email corporativo" required />
+          <input
+            type="tel"
+            placeholder="Telefone"
+            mask="(00) 00000-0000"
+            required
+          />
 
-      <select required>
-        <option value="" disabled selected>TIPO DE EVENTO</option>
-        <option>Corporativo</option>
-        <option>Social</option>
-        <option>Cultural</option>
-      </select>
+          <select required>
+            <option value="" disabled selected>Tipo de evento</option>
+            <option>Corporativo</option>
+            <option>Social</option>
+            <option>Cultural</option>
+          </select>
 
-      <input type="text" placeholder="MUSEU DE INTERESSE" />
-      <input type="text" placeholder="DATA DESEJADA" [min]="minDate" onfocus="this.type='date'" onblur="this.type='text'" />
+          <input
+            type="text"
+            placeholder="Museu de interesse"
+            required
+          />
+          <input
+            type="text"
+            placeholder="Data desejada"
+            [min]="minDate"
+            onfocus="this.type='date'"
+            onblur="this.type='text'"
+          />
 
-      <textarea rows="6" placeholder="DETALHAMENTO DO EVENTO"></textarea>
+          <textarea
+            rows="5"
+            placeholder="Detalhamento do evento"
+          ></textarea>
 
-      <button type="submit" class="gradient-btn text-uppercase">Enviar solicitação</button>
-    </form>
+          <button type="submit" class="gradient-btn">
+            Enviar solicitação
+          </button>
+        </form>
+      </div>
+    </div>
   </div>
 </section>

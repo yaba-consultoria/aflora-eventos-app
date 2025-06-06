@@ -1,14 +1,43 @@
-<section class="carousel-section">
-  <div class="carousel-wrapper">
-    <div class="carousel-track">
-      <div
-        class="carousel-slide"
-        *ngFor="let image of images; let i = index"
-        [ngClass]="getClass(i)"
-        (click)="onSlideClick(i)"
-      >
-        <img [src]="image" alt="Imagem do carrossel" />
+<section class="solucao-section py-5">
+  <div class="container text-center">
+    <h2 class="titulo py-2">
+      Ambientes com história, estrutura e personalidade
+    </h2>
+
+    <p class="subtitulo mb-5 justify-content-center py-3">
+      Nossos espaços acolhem eventos que valorizam conteúdo, presença e
+      significado.
+      <br /><br />
+      Cada detalhe é pensado para integrar sofisticação, funcionalidade e valor
+      cultural criando cenários que ampliam conexões e tornam cada encontro uma
+      experiência única.
+    </p>
+
+    <div class="row gy-5 justify-content-center py-5">
+      <div class="col-6 col-md-3 mb-4" *ngFor="let item of eventos">
+        <div class="card h-100 border-0 shadow-sm py-5">
+          <div class="icon-circle mx-auto mb-3">
+            <img [src]="item.icon" [alt]="item.nome" class="icon-img" />
+          </div>
+          <p class="icon-nome mb-0 fw-semibold text-orange py-2">
+            {{ item.nome }}
+          </p>
+          <div class="decor-line mt-1"></div>
+        </div>
       </div>
+    </div>
+
+    <div class="info-box d-flex align-items-center gap-3 mt-5 mx-auto">
+      <img
+        src="../../../assets/img/expandir.png"
+        alt="Ícone expandir"
+        width="40"
+      />
+      <p class="mb-0">
+        <strong>Nossos espaços são cuidadosamente preparados</strong>
+        para atender diferentes formatos de evento, com capacidade de
+        <span class="destaque-numero">30 a 1.000 convidados</span>.
+      </p>
     </div>
   </div>
 </section>
