@@ -1,13 +1,20 @@
+@font-face {
+  font-family: 'Brandey Regular';
+  src: url('../../../assets/fonts/Brandey-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .depoimentos-section {
   background: #fff;
   padding: 4rem 1rem;
 }
 
 .depo-title {
-  font-size: 2.5rem;
-  font-weight: bold;
-  color: #d13f74;
-  margin-bottom: 2rem;
+  font-family: 'Brandey Regular', sans-serif;
+  font-size: 3rem;
+  color: black;
+  margin-bottom: 3rem;
 }
 
 .carousel-wrapper {
@@ -33,7 +40,7 @@
 
 .card {
   background: #fff;
-  border: 3px solid #d13f74;
+  border: 3px solid black;
   border-radius: 16px;
   padding: 1.5rem;
   flex: 0 0 calc(33.333% - 1rem);
@@ -42,7 +49,7 @@
 }
 
 .card h3 {
-  color: #7d2b6e;
+  color: black;
   font-weight: 700;
   font-size: 1.1rem;
   margin-bottom: 1rem;
@@ -64,7 +71,7 @@
   background: none;
   border: none;
   font-size: 2rem;
-  color: #7d2b6e;
+  color: black;
   cursor: pointer;
   z-index: 10;
   transition: transform 0.2s;
@@ -90,7 +97,7 @@
   border-radius: 50px;
   font-weight: 700;
   color: white;
-  background: linear-gradient(90deg, #d13f74 0%, #7d2b6e 100%);
+  background: black;
   border: none;
   transition: transform 0.2s;
 }

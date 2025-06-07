@@ -9,7 +9,7 @@
 h1 {
   font-family: 'Brandey Regular', sans-serif;
   font-size: 3rem;
-  color: #7d2b6e;
+  color: black;
   padding-bottom: 30px;
 }
 
@@ -21,11 +21,21 @@ h1 {
 }
 
 .logo-img {
-  max-width: 280px;
+  max-width: 350px;
   width: 100%;
   height: auto;
-}
 
+}
+.gradient-btn {
+  padding: 0.7rem 1.6rem;
+  border-radius: 50px;
+  font-weight: 700;
+  color: white;
+  background: black;
+  border: none;
+  transition: transform 0.2s;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
 
 @media (max-width: 768px) {
   h1 {

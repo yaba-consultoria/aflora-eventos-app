@@ -18,7 +18,6 @@ import { SobreComponent } from './sections/sobre/sobre.component';
     MuseusComponent,
     CarouselComponent,
     LocacaoComponent,
-    VideoComponent,
     DepoimentosComponent,
     FormComponent,
     FooterComponent,

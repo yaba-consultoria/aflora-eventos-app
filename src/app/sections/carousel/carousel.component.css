@@ -1,27 +1,32 @@
-/* Section */
+@font-face {
+  font-family: 'Brandey Regular';
+  src: url('../../../assets/fonts/Brandey-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icons{
+  padding-top: 2%;
+}
+
 .solucao-section {
-  background-color: #fdfdfd;
+  background-color: #D9DED5;
 }
 
 .titulo {
+  font-family: 'Brandey Regular', sans-serif;
   font-size: 2rem;
   font-weight: 700;
-  color: #333;
-  text-transform: uppercase;
-}
+  color: black;
 
-.destaque {
-  color: #b52c74;
-  font-family: 'Dancing Script', cursive;
-  font-weight: 600;
 }
 
 .subtitulo {
-  color: #666;
+  color: black;
   max-width: 800px;
   margin-inline: auto;
   line-height: 1.6;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .card {
@@ -35,7 +40,7 @@
 
 .info-box {
   background-color: #fff5f0;
-  border: 2px solid #b52c74;
+  border: 2px solid #296B4F;
   border-radius: 12px;
   padding: 1rem 1.5rem;
   max-width: 720px;
@@ -46,7 +51,7 @@
 }
 
 .destaque-numero {
-  color: #b52c74;
+  color: black;
   font-weight: 700;
 }
 
@@ -61,15 +66,15 @@
 }
 
 .icon-circle {
-  width: 100px; 
+  width: 100px;
   height: 100px;
-  background-color: #b52c74;
+  background-color: #296B4F;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: -50px; 
+  top: -50px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 2;
@@ -81,16 +86,28 @@
 }
 
 .icon-nome{
-  color:#b52c74;
+  color:black;
   font-size: 1.2rem;
 }
 
 .decor-line {
   width: 24px;
   height: 4px;
-  background-color: #b52c74;
+  background-color: #296B4F;
   border-radius: 4px;
   margin: 0 auto;
+}
+
+
+.gradient-btn {
+  margin-top: 2rem;
+  padding: 0.8rem 2rem;
+  border-radius: 50px;
+  font-weight: 700;
+  color: white;
+  background: black;
+  border: none;
+  transition: transform 0.2s;
 }
 
 /* Responsivo */

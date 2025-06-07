@@ -1,20 +1,29 @@
+@font-face {
+  font-family: 'Brandey Regular';
+  src: url('../../../assets/fonts/Brandey-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .titulo {
   font-size: 2rem;
+  font-family: 'Brandey Regular', sans-serif;
+  letter-spacing: 1px;
   font-weight: 700;
-  color: #d13f74;
+  color: black;
   line-height: 3rem;
 }
 
 .marcado {
-  background: linear-gradient(90deg, #7d2b6e 0%, #d13f74 100%);
+  background: black;
   color: white;
-  padding: 0.2rem 0.5rem;
-  border-radius: 0.5rem;
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.3rem;
 }
 
 .subtitulo {
   color: #444;
-  font-size: 1rem;
+  font-size: 1.3rem;
   max-width: 720px;
   margin: 0 auto;
 }
@@ -26,7 +35,7 @@
 
 
 .btn-gradiente {
-  background: linear-gradient(90deg, #7d2b6e 0%, #d13f74 100%);
+  background: black;
   color: white;
   font-weight: 700;
   font-size: 0.95em;
@@ -54,17 +63,17 @@
 }
 
 .icone-texto {
-  color: #d13f74;
+  color: black;
   font-weight: 600;
   font-size: 1.2rem;
   line-height: 1.4;
 }
 .icone-subtexto {
-  color: #d13f74;
+  color: black;
   font-weight: 600;
   font-size: 0.8rem;
   line-height: 1.4;
-  
+
 }
 
 .box img {
@@ -84,5 +93,8 @@
   }
   .btn-gradiente{
     font-size: 1em;
+  }
+  .icone-subtexto{
+    display: none;
   }
 }

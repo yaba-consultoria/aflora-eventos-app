@@ -1,9 +1,3 @@
-/* Section Layout */
-.form-novo-section {
-  background: #fff;
-  padding: 4rem 1rem;
-}
-
 .container-form {
   max-width: 1200px;
   margin: 0 auto;
@@ -17,17 +11,17 @@
 .form-novo-title {
   font-size: 2.8rem;
   font-weight: 700;
-  color: #d13f74;
+  color: black;
 }
 
 .form-novo-title .destaque {
-  background: linear-gradient(90deg, #d13f74, #7d2b6e);
+  background: black;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .form-novo-sub {
-  color: #444;
+  color: black;
   font-size: 1.1rem;
   margin-top: 1rem;
   line-height: 1.6;
@@ -44,7 +38,7 @@
 .form-card-title {
   font-size: 1.4rem;
   font-weight: 600;
-  color: #7d2b6e;
+  color: black;
   margin-bottom: 1.5rem;
 }
 
@@ -58,10 +52,10 @@ input,
 select,
 textarea {
   padding: 0.9rem 1rem;
-  border: 1px solid #eed4e4;
+  border: 1px solid black;
   border-radius: 8px;
   font-size: 0.95rem;
-  color: #5f2c50;
+  color: black;
   background-color: #fff;
   font-family: 'Inter', sans-serif;
 }
@@ -69,7 +63,7 @@ textarea {
 input:focus,
 select:focus,
 textarea:focus {
-  border-color: #b52c74;
+  border-color: black;
   outline: none;
 }
 
@@ -93,7 +87,7 @@ select {
   border-radius: 50px;
   font-weight: 700;
   color: white;
-  background: linear-gradient(90deg, #d13f74 0%, #7d2b6e 100%);
+  background: black;
   border: none;
   cursor: pointer;
   transition: transform 0.2s;

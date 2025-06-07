@@ -12,7 +12,7 @@
 }
 
 .footer-top {
-  background: linear-gradient(180deg, #d13f74 0%, #7d2b6e 100%);
+  background: black;
   padding: 2.5rem 1rem;
   border-radius: 2rem 2rem 0 0;
   color: white;
@@ -109,7 +109,7 @@
 
 .footer-logo {
   max-height: 140px;
-  max-width: 400px;
+  max-width: 150px;
 }
 
 @media (max-width: 480px) {
@@ -132,7 +132,7 @@
   position: fixed;
   bottom: 2rem;
   right: 2rem;
-  background: linear-gradient(90deg, #d13f74, #7d2b6e);
+  background: black;
   color: white;
   border: none;
   border-radius: 600px;
