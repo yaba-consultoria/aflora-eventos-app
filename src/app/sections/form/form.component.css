@@ -97,6 +97,18 @@ select {
   transform: scale(1.03);
 }
 
+/* deixa o botão e toast com largura total */
+.gradient-btn {
+  width: 100%;
+  position: relative;
+}
+
+.toast {
+  max-width: 100%;
+  border-radius: 0.5rem;
+}
+
+
 /* Responsivo */
 @media (max-width: 992px) {
   .container-form {

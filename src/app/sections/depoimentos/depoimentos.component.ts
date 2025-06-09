@@ -14,7 +14,7 @@ export class DepoimentosComponent {
     {
       nome: 'Alexandre',
       texto:
-        'O espaço do museu é simplesmente fantástico, uma imersão artística e cultural que inspira logo na chegada. Estar ali é mergulhar na história de Guilherme de Almeida e vivenciar a relação entre literatura, arte e memória. Um ambiente único, que transforma qualquer evento em uma experiência com identidade e significado.',
+        'O espaço do Museu é simplesmente fantástico, uma imersão artística e cultural que inspira logo na chegada. Estar ali é mergulhar na história de Guilherme de Almeida e vivenciar a relação entre literatura, arte e memória. Um ambiente único, que transforma qualquer evento em uma experiência com identidade e significado.',
     },
     {
       nome: 'Fabio Bianco',
@@ -29,7 +29,7 @@ export class DepoimentosComponent {
     {
       nome: 'Anna Cecília',
       texto:
-        'Um verdadeiro mergulho na história da Avenida Paulista. A reforma da Casa das Rosas revelou ainda mais da sua beleza e originalidade. Destaque para os jardins, com diferentes variedades de rosas e uma atmosfera encantadora.',
+        'Uma verdadeira imersão na história da Avenida Paulista. A reforma da Casa das Rosas revelou ainda mais da sua beleza e originalidade, com ambientes preservados e abertos ao público. Destaque para os jardins, com diferentes variedades de rosas e uma atmosfera encantadora, um cenário único para quem busca arte, memória e inspiração em um só lugar.',
     },
     {
       nome: 'Indira Arruda',
@@ -39,7 +39,7 @@ export class DepoimentosComponent {
     {
       nome: 'Letícia Novais',
       texto:
-        'Um lugar especial, que preserva a memória de um dos maiores nomes do modernismo brasileiro. A Casa Mário de Andrade, agora revitalizada, se tornou ainda mais bonita e significativa um espaço que celebra nossa cultura e mantém viva a história de um verdadeiro ícone da arte e da literatura.',
+        'Um lugar especial que relembra a memória de um dos maiores nomes do modernismo brasileiro. A Casa Mário de Andrade, agora revitalizada, se tornou ainda mais bonita e significativa um espaço que celebra nossa cultura e mantém viva a história de um verdadeiro ícone da arte e da literatura.',
     },
   ];
 

@@ -14,3 +14,13 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+
+
+/* Scroll-to-top: cor do gradiente do site */
+.btn-top {
+  background: black;
+}
+.btn-top:hover {
+  transform: scale(1.1);
+}

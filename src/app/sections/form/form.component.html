@@ -3,8 +3,7 @@
     <!-- LADO ESQUERDO -->
     <div class="col-lg-6 left-content">
       <h2 class="form-novo-title">
-        Solicite um <br />
-        <span class="destaque">Orçamento</span>
+        Solicite um <br /><span class="destaque">Orçamento</span>
       </h2>
       <p class="form-novo-sub">
         Entre em contato para dar início <br />
@@ -17,17 +16,24 @@
     <div class="col-lg-6">
       <div class="form-card">
         <h3 class="form-card-title">Preencha seus dados</h3>
-        <form>
-          <input type="text" placeholder="Nome" required />
-          <input type="email" placeholder="Email corporativo" required />
+
+        <form [formGroup]="formLead" (ngSubmit)="submitForm()">
+          <input type="text" placeholder="Nome" formControlName="nome" required />
+          <input
+            type="email"
+            placeholder="Email corporativo"
+            formControlName="email"
+            required
+          />
           <input
             type="tel"
             placeholder="Telefone"
             mask="(00) 00000-0000"
+            formControlName="telefone"
             required
           />
 
-          <select required>
+          <select formControlName="tipo" required>
             <option value="" disabled selected>Tipo de evento</option>
             <option>Corporativo</option>
             <option>Social</option>
@@ -37,11 +43,14 @@
           <input
             type="text"
             placeholder="Museu de interesse"
+            formControlName="museu"
             required
           />
+
           <input
             type="text"
             placeholder="Data desejada"
+            formControlName="data"
             [min]="minDate"
             onfocus="this.type='date'"
             onblur="this.type='text'"
@@ -50,12 +59,36 @@
           <textarea
             rows="5"
             placeholder="Detalhamento do evento"
+            formControlName="detalhamento"
           ></textarea>
 
-          <button type="submit" class="gradient-btn">
-            Enviar solicitação
+          <!-- Botão com spinner de loading -->
+          <button
+            type="submit"
+            class="gradient-btn text-uppercase d-flex align-items-center justify-content-center"
+            [disabled]="loading()"
+          >
+            <span
+              *ngIf="loading()"
+              class="spinner-border spinner-border-sm me-2"
+            ></span>
+            <span *ngIf="!loading()">Enviar solicitação</span>
+            <span *ngIf="loading()">Enviando...</span>
           </button>
         </form>
+
+        <!-- Toast de sucesso / erro -->
+        <div
+          *ngIf="successMessage()"
+          class="toast show align-items-center text-white bg-success border-0 mt-3"
+          role="alert"
+        >
+          <div class="d-flex">
+            <div class="toast-body">
+              {{ successMessage() }}
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>

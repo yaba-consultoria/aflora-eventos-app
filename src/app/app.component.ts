@@ -28,4 +28,8 @@ import { SobreComponent } from './sections/sobre/sobre.component';
 })
 export class AppComponent {
   title = 'aflora-eventos-app';
+
+    scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
 }

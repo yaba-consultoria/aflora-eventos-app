@@ -7,7 +7,12 @@ p{
   font-size: 1.8rem;
 }
 .header-container {
-  background-image: url('../../../assets/img/background-header.png');
+  
+    background:
+    /* primeiro o degradê semitransparente */
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    /* depois a sua imagem */
+    url('../../../assets/img/background-header.png') center/cover no-repeat;
   background-size: cover;
   background-position: center;
   height: 70vh;
