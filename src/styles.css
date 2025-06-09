@@ -17,10 +17,3 @@ html {
 
 
 
-/* Scroll-to-top: cor do gradiente do site */
-.btn-top {
-  background: black;
-}
-.btn-top:hover {
-  transform: scale(1.1);
-}
