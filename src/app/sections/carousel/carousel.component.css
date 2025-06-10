@@ -118,4 +118,22 @@
   .subtitulo {
     font-size: 0.95rem;
   }
+  .icon-circle {
+  width: 80px;
+  height: 80px;
+  background-color: #296B4F;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+.icon-nome{
+  color:black;
+  font-size: 1rem;
+}
 }

@@ -15,7 +15,7 @@ export class CarouselComponent {
     { nome: 'Reuniões', icon: 'assets/img/reunioes.png' },
     { nome: 'Palestras', icon: 'assets/img/palestras.png' },
     { nome: 'Sessões Fotográficas', icon: 'assets/img/sessoes-fotograficas.png' },
-    { nome: 'Filmagens', icon: 'assets/img/lancamentos.png' },
+    { nome: 'Filmagens', icon: 'assets/img/filmagens.png' },
     { nome: 'Experiências', icon: 'assets/img/experiencias.png' },
     { nome: 'Celebrações', icon: 'assets/img/celebracoes.png' },
   ];

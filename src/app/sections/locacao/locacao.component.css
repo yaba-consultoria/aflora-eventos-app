@@ -141,7 +141,9 @@
   .museu-info li,
   .museu-info em {
     font-size: 0.95rem;
+    text-align: center;
   }
+
 
   .gradient-btn {
     font-size: 0.9rem;
