@@ -17,24 +17,9 @@ export class DepoimentosComponent {
         'O espaço do Museu é simplesmente fantástico, uma imersão artística e cultural que inspira logo na chegada. Estar ali é mergulhar na história de Guilherme de Almeida e vivenciar a relação entre literatura, arte e memória. Um ambiente único, que transforma qualquer evento em uma experiência com identidade e significado.',
     },
     {
-      nome: 'Fabio Bianco',
-      texto:
-        'A Casa Guilherme de Almeida é um encanto em cada detalhe. Os móveis, obras e objetos originais preservam a memória e o romantismo de uma época marcante. O ambiente é acolhedor, inspirador e ideal para quem busca um espaço com identidade cultural.',
-    },
-    {
-      nome: 'Guilherme Ramos',
-      texto:
-        'A Casa das Rosas, localizada na Avenida Paulista, em São Paulo, é um dos poucos casarões históricos ainda preservados na região. Construída em 1935 em estilo clássico francês, já foi residência da família do aristocrata Ramos de Azevedo. Hoje, funciona como um espaço cultural dedicado à literatura, oferecendo exposições, cursos e eventos. Seu belo jardim de rosas é um dos destaques, tornando o local um refúgio tranquilo no coração da cidade.',
-    },
-    {
       nome: 'Anna Cecília',
       texto:
         'Uma verdadeira imersão na história da Avenida Paulista. A reforma da Casa das Rosas revelou ainda mais da sua beleza e originalidade, com ambientes preservados e abertos ao público. Destaque para os jardins, com diferentes variedades de rosas e uma atmosfera encantadora, um cenário único para quem busca arte, memória e inspiração em um só lugar.',
-    },
-    {
-      nome: 'Indira Arruda',
-      texto:
-        'Lugar muito especial onde viveu o maior ativista brasileiro. Justa homenagem que a sua casa seja um museu, o qual, após a última reforma, ficou ainda mais bonito, instrutivo e precioso, enquanto preservação desse nosso grande patrimônio cultural!',
     },
     {
       nome: 'Letícia Novais',

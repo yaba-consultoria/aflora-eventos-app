@@ -36,10 +36,10 @@
 }
 /* WhatsApp: verde oficial */
 .btn-whatsapp {
-  background-color: black;
+  background-color: #25d366;
 }
 .btn-whatsapp:hover {
-  background-color: white;
+  background-color: #25d366;
   transform: scale(1.1);
-  color: black;
+  color: white;
 }

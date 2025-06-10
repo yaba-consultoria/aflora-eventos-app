@@ -16,7 +16,13 @@
   font-family: 'Brandey Regular', sans-serif;
   font-size: 3rem;
   color: black;
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
+}
+.subtitle{
+  font-family: 'Inter', sans-serif;
+  color: black;
+  font-size: 1.2rem;
+  margin: 0 auto;
 }
 
 .museu-item {
