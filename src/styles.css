@@ -28,9 +28,9 @@ html {
   .header-container {
     background:
       linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
-      url('/assets/img/background-header-mobile.jpg') center/cover no-repeat;
+      url('/assets/img/background-header-mobile.png') center/cover no-repeat;
 
-    height: 80vh;
+    height: 590px;
   }
 }
 
