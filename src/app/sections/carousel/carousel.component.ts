@@ -9,14 +9,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./carousel.component.css'],
 })
 export class CarouselComponent {
-  eventos = [
-    { nome: 'Lançamentos', icon: 'assets/img/lancamentos.png' },
-    { nome: 'Coquetéis', icon: 'assets/img/coqueteis.png' },
-    { nome: 'Reuniões', icon: 'assets/img/reunioes.png' },
-    { nome: 'Palestras', icon: 'assets/img/palestras.png' },
-    { nome: 'Sessões Fotográficas', icon: 'assets/img/sessoes-fotograficas.png' },
-    { nome: 'Filmagens', icon: 'assets/img/filmagens.png' },
-    { nome: 'Experiências', icon: 'assets/img/experiencias.png' },
-    { nome: 'Celebrações', icon: 'assets/img/celebracoes.png' },
-  ];
+eventos = [
+  { nome: 'Exposições', icon: 'assets/img/exposicoes.png' },
+  { nome: 'Sessões Fotográficas', icon: 'assets/img/sessoes-fotograficas.png' },
+  { nome: 'Filmagens', icon: 'assets/img/filmagens.png' },
+  { nome: 'Vivências', icon: 'assets/img/experiencias.png' },
+  { nome: 'Ativação de Marca', icon: 'assets/img/ativacao-de-marca.png' },
+  { nome: 'Lançamentos', icon: 'assets/img/lancamentos.png' },
+  { nome: 'Palestras e Reuniões', icon: 'assets/img/palestras.png' },
+  { nome: 'Celebrações', icon: 'assets/img/celebracoes.png' },
+];
 }
