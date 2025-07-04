@@ -46,7 +46,7 @@ src/
 - Scroll suave para navegação por seções
 - Botão flutuante de “voltar ao topo”
 - Formulário com máscara de telefone e validação nativa
-- Links dos botões “Solicite uma proposta” ancorados ao formulário
+- Links dos botões “Entre em contato” ancorados ao formulário
 - Fontes e cores personalizadas via Google Fonts e gradientes CSS
 
 ---
